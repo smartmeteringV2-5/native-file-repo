@@ -1,10 +1,10 @@
 spring:
-  h2:
-    datasource:
-      driver-class-name: org.h2.Driver
-      url: jdbc:h2:mem:testdb
-      username: sa
-      password: '{cipher}AQAs59xl9pQHNyJxrvaeBzJIOM6pAK8dnUopdzmF/yshhAOZiUsrgQvW3rUFkXsqj4hzui73IRE3YkNlmQwHtm0KnacPuHO4KCHP262lHJkR2C0k+PXW/u3yirYTeTMCsIMwoh6/DEtvD3hRQ1YgXSwUGJ1fFg0GB1IDV5+KcKhtonSzqH1IuFl/tpZMoKZgsfZrNvdBFNSZn5Wc0oNjg+hvcqyX+FUimYEoU/+hHKviF/9SUVyTqu6Y72153/SvIBrMRnIP3lU0OYqKU/GSQXTOnsYtCpkqLye709QBsl7Bxxqm+T/E5eikSL9Thys2zrK2bsqWCQPVbXMrw3gtOni9FugA88ho/L4fCj1waBqfPn6n5IfnNVUYWTh3EFmWtQo='
+  # h2:
+  #   datasource:
+  #     driver-class-name: org.h2.Driver
+  #     url: jdbc:h2:mem:testdb
+  #     username: sa
+  #     password: '{cipher}AQAs59xl9pQHNyJxrvaeBzJIOM6pAK8dnUopdzmF/yshhAOZiUsrgQvW3rUFkXsqj4hzui73IRE3YkNlmQwHtm0KnacPuHO4KCHP262lHJkR2C0k+PXW/u3yirYTeTMCsIMwoh6/DEtvD3hRQ1YgXSwUGJ1fFg0GB1IDV5+KcKhtonSzqH1IuFl/tpZMoKZgsfZrNvdBFNSZn5Wc0oNjg+hvcqyX+FUimYEoU/+hHKviF/9SUVyTqu6Y72153/SvIBrMRnIP3lU0OYqKU/GSQXTOnsYtCpkqLye709QBsl7Bxxqm+T/E5eikSL9Thys2zrK2bsqWCQPVbXMrw3gtOni9FugA88ho/L4fCj1waBqfPn6n5IfnNVUYWTh3EFmWtQo='
   mysql:
     datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
